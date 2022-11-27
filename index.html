@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link ref="stylesheet" type="text/css" href="style.css"/>
+    <script defer src="script.js"></script>
+    <title>StarWars</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <style>
+                ul {
+                    font-size: 20px;
+                    font-style: italic;
+                    text-decoration: underline;
+                    list-style: none;  
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                #choix {
+                    font-size: 24px;
+                    font-style: italic;
+                    text-decoration: underline;                    
+                    margin: 30px;
+                    padding: 30px;
+                    width: 400px;
+                    height: 30px;
+                    background-color: rgba(31, 28, 237, 0.8);
+                    border-radius: 20px/20px;
+                    text-align: center;     
+
+                }
+                
+                li{
+                    margin: 10px;
+                    padding: 20;
+                    float: left;
+                    width: 300px;
+                    height: 40px;
+                    background-color: rgba(238, 100, 178, 0.8);
+                    border-radius: 20px/20px;   
+
+                }
+
+                a {                                  
+                    display: block;
+                    opacity: 0.8;
+                    line-height: 40px;
+                    text-align: center;
+                    align-content: space-between;
+                }
+
+            </style>
+
+                <ul><div id="choix">QU'ALLEZ-VOUS TROUVER PARMI :</div>
+
+                    <li><a>Les 83 personnages ?</a></li>                    
+                    <li><a>Les 60 planètes ?</a></li>
+                    <li><a>Les 6 films ?</a></li>
+                    <li><a>Les 37 espèces ?</a></li>
+        <!--            <li><a>Les 39 véhicules ?</a></li>    -->
+                    <li><a>Les 36 vaisseaux spatiaux ?</a></li>
+                    
+                </ul>
+                    
+                    <p>Choisissez un nombre de 01 à 83</p>
+                    <button id="btnSend1">SEND</button>
+                    <input id="inputPeople" type="text" placeholder="Personnages"/>
+                    <div id="affichage1"></div>
+                    
+                    <p>Choisissez un nombre de 01 à 60</p>
+                    <button id="btnSend2">SEND</button>
+                    <input id="inputPlanets" type="text" placeholder="Planètes"/>
+                    <div id="affichage2"></div>
+                    
+                    <p>Choisissez un nombre de 01 à 06</p>
+                    <button id="btnSend3">SEND</button>
+                    <input id="inputFilms" type="text" placeholder="films"/>
+                    <div id="affichage3"></div>
+                    
+                    <p>Choisissez un nombre de 01 à 37</p>
+                    <button id="btnSend4">SEND</button>
+                    <input id="inputSpecies" type="text" placeholder="Espèce"/>
+                    <div id="affichage4"></div>
+<!--
+                    <p>Choisissez un nombre de 01 à 39</p>
+                    <button id="btnSend5">SEND</button>
+                    <input id="inputVehicles" type="text" placeholder="Véhicules"/>
+                    <div id="affichage5"></div>
+-->
+                    <p>Choisissez un nombre de 01 à 36</p>
+                    <button id="btnSend6">SEND</button>
+                    <input id="inputStarships" type="text" placeholder="Vaisseaux spatiaux"/>
+                    <div id="affichage6"></div>
+
+        </nav>
+    </header>
+
+</body>
+</html>
